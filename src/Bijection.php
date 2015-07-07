@@ -1,7 +1,7 @@
 <?php
 
 
-namespace alexkr\biject;
+namespace AlexKR\Biject;
 
 
 class Bijection

@@ -2,6 +2,8 @@
 
 Simple implementation one-to-one correspondence function on PHP.
 
+Build status: [![Build Status](https://travis-ci.org/AlexKR/Biject.svg?branch=travis-ci)](https://travis-ci.org/AlexKR/Biject)
+
 ## Code Example
 
 Encoding:
