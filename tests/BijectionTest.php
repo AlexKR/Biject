@@ -5,7 +5,7 @@ class BijectionTest extends PHPUnit_Framework_TestCase
 {
     public function testEncode1()
     {
-        $bijection = new alexkr\biject\Bijection();
+        $bijection = new AlexKR\Biject\Bijection();
 
         $result = $bijection->encode(7);
 
@@ -14,7 +14,7 @@ class BijectionTest extends PHPUnit_Framework_TestCase
 
     public function testEncode2()
     {
-        $bijection = new alexkr\biject\Bijection();
+        $bijection = new AlexKR\Biject\Bijection();
 
         $result = $bijection->encode(62);
 
@@ -23,7 +23,7 @@ class BijectionTest extends PHPUnit_Framework_TestCase
 
     public function testEncode3()
     {
-        $bijection = new alexkr\biject\Bijection('0123456789');
+        $bijection = new AlexKR\Biject\Bijection('0123456789');
 
         $result = $bijection->encode(39);
 
@@ -32,7 +32,7 @@ class BijectionTest extends PHPUnit_Framework_TestCase
 
     public function testEncode4()
     {
-        $bijection = new alexkr\biject\Bijection('abcdefghij');
+        $bijection = new AlexKR\Biject\Bijection('abcdefghij');
 
         $result = $bijection->encode(706);
 
@@ -41,7 +41,7 @@ class BijectionTest extends PHPUnit_Framework_TestCase
 
     public function testEncode5()
     {
-        $bijection = new alexkr\biject\Bijection();
+        $bijection = new AlexKR\Biject\Bijection();
 
         $result = $bijection->encode(438);
 
@@ -50,7 +50,7 @@ class BijectionTest extends PHPUnit_Framework_TestCase
 
     public function testDecode1()
     {
-        $bijection = new alexkr\biject\Bijection('abcdefghij');
+        $bijection = new AlexKR\Biject\Bijection('abcdefghij');
 
         $result = $bijection->decode('hag');
 
@@ -59,7 +59,7 @@ class BijectionTest extends PHPUnit_Framework_TestCase
 
     public function testDecode2()
     {
-        $bijection = new alexkr\biject\Bijection();
+        $bijection = new AlexKR\Biject\Bijection();
 
         $result = $bijection->decode('bb');
 
@@ -68,7 +68,7 @@ class BijectionTest extends PHPUnit_Framework_TestCase
 
     public function testDecode3()
     {
-        $bijection = new alexkr\biject\Bijection('0123456789');
+        $bijection = new AlexKR\Biject\Bijection('0123456789');
 
         $result = $bijection->decode(39);
 
@@ -77,7 +77,7 @@ class BijectionTest extends PHPUnit_Framework_TestCase
 
     public function testDecode4()
     {
-        $bijection = new alexkr\biject\Bijection();
+        $bijection = new AlexKR\Biject\Bijection();
 
         $result = $bijection->decode('he');
 
